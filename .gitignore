@@ -1,3 +1,4 @@
+package
 components/
 node_modules/
 .wercker

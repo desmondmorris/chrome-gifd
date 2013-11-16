@@ -1,27 +1,27 @@
 {
-  "manifest_version": 2,
-  "name": "Gifd",
-  "description": "Displays animated gifs in the Twitter timeline.",
-  "homepage_url": "http://desmondmorris.com/projects/gifd",
-  "version": "1.0.0",
-  "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://twitter.com/*"
-      ],
-      "js": [
-        "components/jquery/jquery.js",
-        "src/giffed.js",
-        "src/background.js"
-      ]
-    }
-  ],
-  "permissions": [
-    "*://twitter.com/"
-  ]
+    "manifest_version": 2,
+    "name": "Gifd",
+    "description": "Displays animated gifs in the Twitter timeline.",
+    "version": "1.0.1",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background": "src/background.js",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://twitter.com/*"
+            ],
+            "js": [
+                "components/jquery/jquery.js",
+                "src/giffed.js",
+                "src/background.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "*://twitter.com/"
+    ]
 }
