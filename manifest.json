@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Gifd",
   "description": "Displays animated gifs in the Twitter timeline.",
-  "homepage_url": "https://github.com/desmondmorris/giffed",
+  "homepage_url": "http://desmondmorris.com/projects/gifd",
   "version": "1.0.0",
   "icons": {
     "16": "icon16.png",
