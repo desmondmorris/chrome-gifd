@@ -1,0 +1,24 @@
+{
+  "name": "giffed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Displays animated gifs in the Twitter timeline.",
+  "main": "src/content.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": "https://github.com/desmondmorris/giffed",
+  "author": {
+    "name" : "Desmond Morris",
+    "email" : "hi@desmondmorris.com",
+    "url" : "http://desmondmorris.com"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "grunt": "~0.4.1",
+    "grunt-mocha": "~0.3.2",
+    "expect.js": "~0.2.0"
+  }
+}

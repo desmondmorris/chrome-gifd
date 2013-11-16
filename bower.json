@@ -1,0 +1,13 @@
+{
+  "name": "giffed",
+  "version": "0.0.0",
+  "main": "src/content.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.2",
+  }
+}
