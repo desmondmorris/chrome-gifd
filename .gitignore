@@ -1,4 +1,6 @@
-package
+.DS_Store
+dist/
+package/
 components/
 node_modules/
 .wercker
